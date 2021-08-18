@@ -17,7 +17,7 @@ namespace SimpleFeedReader
 
         public IConfiguration Configuration { get; }
 
-        //ConfigureServices
+        
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<NewsService>();
